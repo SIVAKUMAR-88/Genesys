@@ -3,7 +3,7 @@
 terraform {
 
   backend "remote" {
-    organization = "csinfocommpvtltd"
+    organization = "Sivakumar123"
 
 module "classifier_users" {
   source = "./modules/users"
