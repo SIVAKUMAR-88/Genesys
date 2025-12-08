@@ -37,6 +37,7 @@ jobs:
       GENESYSCLOUD_OAUTHCLIENT_SECRET: ${{ secrets.GENESYS_CLIENT_SECRET }}
       GENESYSCLOUD_API_REGION: "https://api.aps1.pure.cloud"
       GENESYSCLOUD_REGION: "ap-south-1"
+      TF_WORKSPACE: "Genesys"
     steps:
       - uses: actions/checkout@v2
       - uses: hashicorp/setup-terraform@v1
